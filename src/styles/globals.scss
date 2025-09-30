@@ -80,7 +80,7 @@ a {
   margin-inline: auto;
   padding: var(--space-4);
 
-  @media(min-width: var(--breakpoint-lg)) {
+  @media(min-width: tokens.$breakpoint-lg) {
     padding-inline: var(--space-6);
   }
 }
