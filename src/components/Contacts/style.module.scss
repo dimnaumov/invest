@@ -1,0 +1,24 @@
+@use '@/styles/icons' as *;
+
+.contacts {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--space-4);
+
+  &__icon {
+    width: var(--space-5);
+    height: var(--space-5);
+
+    &--mail {
+      @include iconMail;
+    }
+
+    &--telegram{
+      @include iconTelegram;
+    }
+
+    &--github {
+      @include iconGithub;
+    }
+  }
+}
